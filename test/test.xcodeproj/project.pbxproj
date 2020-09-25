@@ -15,6 +15,7 @@
 		410A6981251D2B7B0089CAE9 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A6980251D2B7B0089CAE9 /* testTests.swift */; };
 		410A698C251D2B7B0089CAE9 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A698B251D2B7B0089CAE9 /* testUITests.swift */; };
 		410A69A2251D388E0089CAE9 /* QtApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410A699F251D2C790089CAE9 /* QtApplication.framework */; };
+		41A72052251E27B700DF21CD /* QtApplication.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41A72051251E27B700DF21CD /* QtApplication.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,9 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 16;
 			files = (
+				41A72052251E27B700DF21CD /* QtApplication.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +67,7 @@
 		410A699C251D2C1A0089CAE9 /* QtApplication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtApplication.framework; path = ../QtApplication/QtApplication.framework; sourceTree = "<group>"; };
 		410A699F251D2C790089CAE9 /* QtApplication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtApplication.framework; path = ../QtApplication/QtApplication.framework; sourceTree = "<group>"; };
 		410A69A1251D2D830089CAE9 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		41A72051251E27B700DF21CD /* QtApplication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtApplication.framework; path = ../QtApplication/QtApplication.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				410A699F251D2C790089CAE9 /* QtApplication.framework */,
+				41A72051251E27B700DF21CD /* QtApplication.framework */,
 				410A6969251D2B790089CAE9 /* test */,
 				410A697F251D2B7B0089CAE9 /* testTests */,
 				410A698A251D2B7B0089CAE9 /* testUITests */,
